@@ -7,9 +7,5 @@ data = pd.read_csv('../data/states_edu.csv')
 
 # Optional: Display the first few rows
 print(data.head())
-plt.scatter(df['STATE_REVENUE_PER_STUDENT'], df['AVG_MATH_8_SCORE'])
-plt.xlabel('STATE_REVENUE_PER_STUDENT')
-plt.ylabel('AVG_MATH_8_SCORE')
-plt.title('Relationship between STATE_REVENUE_PER_STUDENT and AVG_MATH_8_SCORE')
-plt.show()
+
 
